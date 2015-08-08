@@ -19,7 +19,7 @@ config :maru, MSF.API, http: [port: port]
 
 Modify the Etcd server location. Currently tested on 1 Etcd node.
 
-##### `config/server1.exs`
+##### `config/config.exs`
 
 ```elixir
 config :etcd, :uri, "127.0.0.1:2379"
