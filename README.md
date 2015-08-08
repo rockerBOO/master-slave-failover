@@ -41,4 +41,6 @@ To test the client in iex:
 
 ```elixir
 iex> MSF.Client.get("/")
+Not the master from 127.0.0.1:8882
+Got hello world from 127.0.0.1:8881
 ```
