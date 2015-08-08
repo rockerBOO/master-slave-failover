@@ -1,0 +1,11 @@
+%{"cowboy": {:hex, :cowboy, "1.0.2"},
+  "cowlib": {:hex, :cowlib, "1.0.1"},
+  "hackney": {:hex, :hackney, "1.3.0"},
+  "httpoison": {:hex, :httpoison, "0.7.1"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "maru": {:hex, :maru, "0.5.0"},
+  "plug": {:hex, :plug, "0.14.0"},
+  "poison": {:hex, :poison, "1.4.0"},
+  "ranch": {:hex, :ranch, "1.1.0"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
+  "uuid": {:hex, :uuid, "1.0.1"}}
