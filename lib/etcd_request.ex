@@ -1,10 +1,8 @@
 defmodule MSF.Etcd.Request do
   use HTTPoison.Base
 
-# application/x-www-form-urlencoded
-
   def process_url(url) do
-    "http://127.0.0.1:4001/v2/keys" <> url
+    "http://#{Application.get_env(:etcd, uri)}/v2/keys" <> url
   end
 
   def process_request_headers(headers) do
